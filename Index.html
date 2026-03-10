@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday</title>
+<style>
+body{
+  background: linear-gradient(to right, pink, purple);
+  text-align:center;
+  color:white;
+  font-family: Arial;
+}
+
+h1{
+  font-size:60px;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+  from{ text-shadow:0 0 10px white;}
+  to{ text-shadow:0 0 30px yellow;}
+}
+
+button{
+  padding:15px;
+  font-size:20px;
+  border:none;
+  border-radius:10px;
+  background:yellow;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday My Friend! 🎉</h1>
+
+<p>You are an amazing friend and I wish you the best year ahead! 🎂</p>
+
+<button onclick="showMessage()">Click for Surprise 🎁</button>
+
+<script>
+function showMessage(){
+  alert("Surprise! You are the best friend ever! 💖");
+}
+</script>
+
+</body>
+</html>
